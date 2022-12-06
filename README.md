@@ -55,15 +55,6 @@ iptables -I OUTPUT -p tcp --dport 80 -j ACCEPT
 
 iptables -I INPUT -p tcp --sport 80 -j ACCEPT
 
-#iptables -I INPUT -p tcp -i enp0s3 --sport 443  -j ACCEPT
-
-#iptables -I OUTPUT -p tcp -o enp0s3 --dport 443 -j ACCEPT
-
-#iptables -I INPUT -p tcp -i enp0s3 --sport 80  -j ACCEPT
-
-#iptables -I OUTPUT -p tcp -o enp0s3 --dport 80 -j ACCEPT
-
-
 
 #liberacao ALGAR
 
